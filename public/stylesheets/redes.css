@@ -1,0 +1,207 @@
+body {
+    background-color:   rgb(187, 34, 34);
+    width: 600px;
+    height: auto;
+}
+
+.navegacion {
+    display: flex;
+    width: 600px;
+    height: 120px;
+    top: 10px;
+}
+
+.navegacion h1 {
+    display: inline-flex;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Domine', serif;
+    margin-left: 15px;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(211, 213, 233);
+}
+
+.navegar {
+    margin-left: 190px;
+}
+
+.nav-barra {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-iconos {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 8px 8px 0px 8px;
+    width: 40px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav-iconos a {
+    text-decoration: none;
+}
+
+.nav-iconos img {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.nav-iconos p {
+    margin-top: 0;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+#casa {
+    color: rgb(66, 66, 231);
+}
+
+#red {
+    color: rgb(230, 44, 44);
+}
+
+#contacto {
+    color: rgb(137, 199, 137);
+}
+
+.redes {
+    width: 600px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.redsocial {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.redsocial p {
+    font-size: 48px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Domine', serif;
+}
+
+.logos {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 30px;
+    border: white 4px solid;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 330px;
+    }
+    
+    .navegacion {
+        width: 330px;
+        height: 100px;
+    }
+    
+    .navegacion h1 {
+        font-size: 30px;
+    }
+
+    .navegar {
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    
+    .nav-iconos {
+        width: 20px;
+        height: 35px;
+        margin: 10px 3px 0 3px;
+    }
+    
+    .nav-iconos img {
+        width: 22px;
+        height: 22px;
+        margin: 0;
+    }
+    
+    .nav-iconos p {
+        font-size: 6px;
+    }
+
+    .redes {
+        width: 330px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .redsocial p {
+        font-size: 22px;
+    }
+
+    .logos {
+        width: 40px;
+        height: 40px;
+        border-radius: 15px;
+        border: 3px solid white;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 330px;
+    }
+    
+    .navegacion {
+        width: 330px;
+        height: 100px;
+    }
+    
+    .navegacion h1 {
+        font-size: 30px;
+    }
+
+    .navegar {
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    
+    .nav-iconos {
+        width: 20px;
+        height: 35px;
+        margin: 10px 3px 0 3px;
+    }
+    
+    .nav-iconos img {
+        width: 22px;
+        height: 22px;
+        margin: 0;
+    }
+    
+    .nav-iconos p {
+        font-size: 6px;
+    }
+
+    .redes {
+        width: 330px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .redsocial p {
+        font-size: 22px;
+    }
+
+    .logos {
+        width: 40px;
+        height: 40px;
+        border-radius: 15px;
+        border: 3px solid white;
+    }
+}

@@ -1,0 +1,422 @@
+body {
+    background-color: rgb(197, 216, 252);
+}
+
+/* header */
+.cabeza {
+    position: relative;
+    display: inline-flex;
+    width: 1500px;
+    height: 120px;
+    top: 10px;
+}
+
+.fotoCara {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 3px solid rgb(119, 10, 10);
+}
+
+.nombre-cara {
+    display: inline-flex;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Domine', serif;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: rgb(37, 44, 105);
+}
+
+.navegar {
+    margin-left: 520px;
+    margin-right: 20px;
+}
+
+.nav-barra {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+}
+
+.nav-iconos {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 8px 8px 0px 8px;
+    width: 40px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav-iconos a {
+    text-decoration: none;
+}
+
+.nav-iconos img {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.nav-iconos p {
+    margin-top: 0;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+#casa {
+    color: rgb(66, 66, 231);
+}
+
+#red {
+    color: rgb(230, 44, 44);
+}
+
+#contacto {
+    color: rgb(137, 199, 137);
+}
+
+/* slideshow */
+.slideshow {
+    width: 1423px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 8px 8px 0 slategray;
+}
+
+.medio {
+    position: absolute;
+    top: 330px;
+    left: 745px;
+    transform: translate(-50%, -50%);
+}
+
+.navegacion {
+    position: absolute;
+    bottom: 20px;
+    left: 54%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 10px;
+    height: 10px;
+    border: 4px solid rgb(126, 59, 146);
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover {
+    background: rgb(126, 59, 146);
+}
+
+input[name="face"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#programador2 {
+    display: none;
+}
+
+#artista2 {
+    display: none;
+}
+
+#editor2 {
+    display: none;
+}
+
+#f1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#f2:checked ~ .s2 {
+    margin-left: -20%;
+}
+
+#f3:checked ~ .s3 {
+    margin-left: -40%;
+}
+ 
+/* historietas */
+.historietas {
+    position: relative;
+    width: 1465px;
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    top: 410px;
+}
+
+.comics {
+    width: 440px;
+    height: 300px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    border: 4px solid rgb(253, 245, 245);
+}
+
+.comics p {
+    font-family: 'Domine', serif;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.chonas {
+    background-color: rgb(39, 74, 179);
+}
+
+.nxall {
+    background-color: rgb(145, 82, 209);
+}
+
+.froggymarket {
+    background-color: seagreen;
+}
+
+.logos {
+    padding: 15px 0px;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 395px;
+    bottom: 65px;
+    width: 25px;
+    height: 25px;
+}
+
+/* video de productos */
+.videoProductos {
+    position: relative;
+    width: 1423px;
+    height: 380px;
+    top: 400px;
+    background-color: rgb(241, 250, 255);
+    margin-left: 20px;
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+.videoProductos iframe {
+    margin: 30px 10px 10px 20px;
+}
+
+.descripcion {
+    width: 800px;
+    text-align: center;
+    font-family: 'Domine', serif;
+    color: rgb(95, 35, 95);
+}
+
+.descripcion h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 30px 0 25px 0; 
+}
+
+.descripcion p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.descripcion button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    background-color: tomato;
+    border: 3px outset rgb(255, 228, 224);
+    border-radius: 10px;
+    margin: 30px 0;
+    color: white;
+    cursor: pointer;
+}
+ /* pantallas celulares */
+@media screen and (max-width: 500px) {
+    .cabeza {
+        width: 500px;
+        height: 60px;
+    }
+
+    .fotoCara {
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+    }
+
+    .cabeza h1 {
+        font-size: 14px;
+        margin-left: 10px;
+        flex-direction: column;
+        width: 50px;
+    }
+
+    .navegar {
+        margin-left: 60px;
+        margin-right: 0;
+    }
+
+    .nav-iconos {
+        width: 20px;
+        height: 35px;
+        margin: 10px 3px 0 3px;
+    }
+
+    .nav-iconos img {
+        width: 22px;
+        height: 22px;
+        margin: 0;
+    }
+
+    .nav-iconos p {
+        font-size: 6px;
+    }
+
+    #programador1 {
+        display: none;
+    }
+
+    #artista1 {
+        display: none;
+    }
+
+    #editor1 {
+        display: none;
+    }
+
+    #programador2 {
+        display: block;
+    }
+
+    #artista2 {
+        display: block;
+    }
+
+    #editor2 {
+        display: block;
+    }
+
+    .slideshow {
+        width: 330px;
+        height: 400px;
+    }
+
+    .medio {
+        left: 185px;
+        top: 300px;
+    }
+
+    .navegacion {
+        position: absolute;
+        left: 50%;
+        bottom: 200px;
+    }
+
+    .bar {
+        width: 8px;
+        height: 8px;
+        border: 1px solid rgb(126, 59, 146);
+        margin: 3px;
+    }
+
+    .historietas {
+        width: 350px;
+        height: auto;
+        display: flex;
+        top: 455px;
+    }
+
+    .comics {
+        width: 300px;
+        height: 200px;
+        margin: 10px 0px;
+    }
+
+    .comics p {
+        font-size: 10px;
+    }
+
+    .logos {
+        padding: 7px 0px;
+    }
+
+    .info {
+        position: relative;
+        width: 15px;
+        height: 15px;
+        margin-left: 275px;
+        bottom: 0px;
+    }
+
+    .videoProductos {
+        width: 330px;
+        height: auto;
+        top: 470px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .videoProductos iframe {
+        margin: 20px 5px 10px 10px;
+        width: 310px;
+        height: auto;
+    }
+
+    .descripcion {
+        width: 300px;
+    }
+
+    .descripcion h3 {
+        font-size: 32px;
+        margin: 0 0 10px 25px;
+    }
+
+    .descripcion p {
+        width: 100%;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .descripcion button {
+        margin-left: 30px;
+    }
+} 

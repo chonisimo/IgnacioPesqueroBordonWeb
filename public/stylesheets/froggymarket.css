@@ -1,0 +1,164 @@
+body {
+    background-color:  seagreen;
+    width: 1500px;
+    height: auto;
+}
+
+.navegacion {
+    display: flex;
+    width: 1500px;
+    height: 120px;
+    top: 10px;
+}
+
+.navegar {
+    margin-left: 1230px;
+}
+
+.nav-barra {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-iconos {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 8px 8px 0px 8px;
+    width: 40px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav-iconos a {
+    text-decoration: none;
+}
+
+.nav-iconos img {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.nav-iconos p {
+    margin-top: 0;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+#casa {
+    color: rgb(66, 66, 231);
+}
+
+#red {
+    color: rgb(230, 44, 44);
+}
+
+#contacto {
+    color: rgb(137, 199, 137);
+}
+
+.logos {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.froggymarket p {
+    font-family: 'Domine', serif;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.tomos {
+    margin-top: 20px;
+}
+
+.tomos h2 {
+    font-family: 'Domine', serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tomos ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.tomos li {
+    margin: 25px;
+    margin-left: 620px;
+}
+
+.tomos img {
+    height: 250px;
+    width: auto;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.tomos img:hover {
+    border: 8px solid white;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 330px;
+    }
+
+    .navegacion {
+        width: 330px;
+        height: 100px;
+    }
+
+    .navegar {
+        margin-left: 150px;
+        margin-right: 0;
+    }
+
+    .nav-iconos {
+        width: 20px;
+        height: 35px;
+        margin: 10px 3px 0 3px;
+    }
+
+    .nav-iconos img {
+        width: 22px;
+        height: 22px;
+        margin: 0;
+    }
+
+    .nav-iconos p {
+        font-size: 6px;
+    }
+
+    .logos {
+        width: 200px;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .froggymarket p {
+        font-size: 14px;
+    }
+
+    .tomos h2 {
+        font-size: 24px;
+    }
+
+    .tomos ul {
+        display: block;
+    }
+    .tomos li {
+        margin: 10px 0 10px 35px;
+    }
+}
