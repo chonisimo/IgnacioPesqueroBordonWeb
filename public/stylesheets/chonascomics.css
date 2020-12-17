@@ -4,6 +4,14 @@ body {
     height: auto;
 }
 
+.fotoCara {
+    display: none;
+}
+
+.nombre-cara {
+    display: none;
+}
+
 .navegacion {
     display: flex;
     width: 1500px;
