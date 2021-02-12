@@ -97,6 +97,8 @@ body {
 }
 
 .tomos ul {
+    width: 1200px;
+    height: auto;
     list-style: none;
     display: inline-flex;
     margin: 0 auto;
@@ -107,7 +109,7 @@ body {
 }
 
 .tomos img {
-    height: 250px;
+    height: 200px;
     width: auto;
     transition: ease 0.2s;
     cursor: pointer;
